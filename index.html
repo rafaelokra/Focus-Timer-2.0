@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Timer 2.0</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+<body>
+    <main>
+        <div id="timer">
+            <span class="minutes">25</span>
+            <span>:</span>
+            <span class="secords">00</span>
+        </div>
+        <div id="controls">
+            <button class="play">
+                <img src="img/play.png" alt="">
+            </button>
+            <button class="stop" >
+                <img src="img/stop.png" alt="">
+            </button>
+            <button class="increase" >
+                <img src="img/+.png" alt="">
+            </button>
+            <button  class="to decrease">
+                <img src="img/-.png" alt="">
+            </button>
+        </div>
+        <div class="sons">
+            <button class="vector"onclick="adicionarAudioVento()" >
+                <img src="img/Card 01.png" alt="">
+                <audio src="sounds/Floresta.wav"></audio>
+            </button>
+            <button class="nuvem"onclick="adicionarAudioChuva()" >
+                <img src="img/Card 02.png">
+            </button>
+            <button class="house"onclick="adicionarAudioHouse()" >
+                <img src="img/Card 03.png" alt="">
+            </button>
+            <button class="cool" onclick="adicionarAudioCool()" >
+                <img src="img/Card 04.png" alt="">
+            </button>
+        </div>
+       
+    </main>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>

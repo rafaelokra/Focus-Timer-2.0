@@ -94,10 +94,10 @@ var audio;
       }
     }
     function adicionarAudioLareira() {
-      if (audio && !Audio.paused){
+      if (audio && !audio.paused){
         audio.pause();
-    } else {
-      audio = new Audio('sounds/lareira.wav');
-      audio.play();
+      } else {
+        audio = new Audio('sounds/lareira.wav');
+        audio.play();
+      }
     }
-  }

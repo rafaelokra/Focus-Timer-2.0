@@ -9,7 +9,7 @@
 }
 
 main {
-   
+  
     width: 821px;
     height: 336px;
     margin-left: 23.3rem;
@@ -88,3 +88,13 @@ margin-bottom: 12px;
 .cool {
     padding-left: 2.0em;
 }
+.lightmode {
+
+    position: absolute;
+    left:500px;
+    top: -80px;
+}
+
+  
+  
+  

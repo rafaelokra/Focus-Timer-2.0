@@ -4,7 +4,6 @@ const buttonStop = document.querySelector('.stop');
 const buttonIncrease = document.querySelector('.increase');
 const buttonDecrease = document.querySelector('.todecrease');
 
-
 buttonStart.addEventListener('click', startTimer);
 buttonStop.addEventListener('click', stopTimer);
 buttonIncrease.addEventListener('click', increaseTime);
@@ -59,49 +58,3 @@ function decreaseTime() {
   }
   updateTimerDisplay();
 }
-
-var audio;
-var volume = 0.5;
-
-
-    function adicionarAudioFlorest() {
-      if (audio && !audio.paused) {
-        audio.pause();
-      } else {
-        audio = new Audio('sounds/Floresta.wav'); // 
-        audio.loop = true;
-        audio.volume = 0.5;
-        audio.play();
-        
-      }
-    }
-    function adicionarAudioChuva() {
-      if (audio && !audio.paused){
-        audio.pause();
-      } else {
-        audio = new Audio('sounds/Chuva.wav');
-        audio.loop = true;
-        audio.play();
-        
-      }
-    }
-    function adicionarAudioCafeteria() {
-      if (audio && !audio.paused){
-        audio.pause();
-      } else {
-        audio = new Audio('sounds/cafeteria.wav');
-        audio.loop = true;
-        audio.play();
-        
-      }
-    }
-    function adicionarAudioLareira() {
-      if (audio && !audio.paused){
-        audio.pause();
-      } else {
-        audio = new Audio('sounds/lareira.wav');
-        audio.loop = true;
-        audio.play();
-        
-      }
-    }

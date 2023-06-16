@@ -7,7 +7,10 @@
     font-size: 62.5%;
 
 }
-
+body{
+    color: #323238;
+    
+}
 main {
   
     width: 821px;
@@ -15,7 +18,7 @@ main {
     margin-left: 23.3rem;
     margin-top: 20.4rem;
 }
-#timer{
+.timer{
    
     width: 32.1rem;
     height: 11.7rem;
@@ -24,7 +27,7 @@ main {
     
     margin-bottom: 3.1rem;
         
-    color: #323238;
+  
   
     text-align: center;
 
@@ -47,23 +50,24 @@ main {
     display: flex;
     gap: 4rem;
 }
-img {
+svg {
     transition: transform 0.3s ease;
+   
   }
   
-  img:hover {
+  svg:hover {
     cursor: pointer;
     transform: translateY(-10px);
   }
   
-  .img.clicked {
+  svg.clicked {
     transform: translateY(-100%);
   }
    
 
-
 button{
     background-color: transparent;
+   
     border: none;
     cursor: pointer;
 }
@@ -77,6 +81,7 @@ button{
     left: 74.6rem;
    
     background-color: transparent;
+  
 }
 .sons, button{
 gap: 3.2rem;
@@ -88,13 +93,15 @@ margin-bottom: 12px;
 .cool {
     padding-left: 2.0em;
 }
-.lightmode {
 
-    position: absolute;
-    left:500px;
-    top: -80px;
+.dark {
+   position: absolute;
+    top: 50px;
+    right: 40px;
 }
 
+#controls svg path {
+    fill: #323238;
   
-  
+}
   

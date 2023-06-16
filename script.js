@@ -60,6 +60,37 @@ function decreaseTime() {
   updateTimerDisplay();
 }
 
+var onFill = document.querySelector('.onfill-svg')
+function alterarModo(modo) {
+  if (modo === 'light') {
+    // Alterar o ícone para a versão escura
+    document.getElementById('lightIcon')
+
+    // Alterar o fundo para escuro
+   
+    document.body.style.backgroundColor = '#000000';
+    document.body.style.color = "#ffffff"
+ 
+  
+ 
+  
+ 
+  
+  } else if (modo === 'dark') {
+    // Alterar o ícone para a versão clara
+    document.getElementById('darkIcon')
+   
+
+    // Alterar o fundo para claro
+    document.body.style.backgroundColor = '#ffffff';
+    document.body.style.color = "#000000"
+   
+    
+  }
+}
+
+
+
 var audio;
 var volume = 0.5;
 

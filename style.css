@@ -135,21 +135,19 @@ path{
  } 
 
  @media screen  and (min-width: 500px) and (max-width: 700px) {
-  body{
-    background-color: aqua;
-  }
+  
   main {
  
     width: 921px;
     height: 236px;
     margin-left: 23.3rem;
-    margin-top: 22.4rem;
+    margin-top: 15.4rem;
 }
 .timer{
    display: flex;
     width: 32.1rem;
     height: 10.7rem;
-    margin-left:3px;
+    margin-left:20px;
     font-size:  clamp(4.5rem, 5rem + 10vw, 6.7rem);
    
     margin-bottom: 3.1rem;
@@ -162,7 +160,7 @@ path{
 
     width: 31.2rem;
     height: 4.8rem;
-    margin-left:-60px;
+    margin-left:-48px;
     display: flex;
     gap: 4rem;
 }
@@ -195,8 +193,8 @@ button{
     width: 30.8rem;
     height: 33.6rem;
    
-    top: 47.6rem;
-    left:18rem;
+    top: 38.8rem;
+    left:19rem;
    
     background-color: transparent;
   

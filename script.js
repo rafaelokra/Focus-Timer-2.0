@@ -60,21 +60,17 @@ function decreaseTime() {
   updateTimerDisplay();
 }
 
-
-
-
-
 function alterarModo(modo) {
   if (modo === 'light') {
-    // Alterar o fundo para escuro
+   
     document.body.style.backgroundColor = '#000000';
     document.body.style.color = '#ffffff';
    
   } else if (modo === 'dark') {
-    // Alterar o ícone para a versão clara
+    
     document.getElementById('darkIcon').style.color = '#ffffff';
 
-    // Alterar o fundo para claro
+   
     document.body.style.backgroundColor = '#ffffff';
     document.body.style.color = '#323238';
   }
@@ -92,7 +88,7 @@ var sliderVolume = document.getElementById('slider-volume');
       if (audio && !audio.paused) {
         audio.pause();
       } else {
-        audio = new Audio('sounds/Floresta.wav'); // 
+        audio = new Audio('sounds/Floresta.wav'); 
         audio.loop = true;
         audio.volume = 0.5;
         audio.play();

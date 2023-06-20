@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -133,4 +134,127 @@ path{
     cursor: pointer;
  } 
 
+ @media screen  and (min-width: 400px) and (max-width: 500px) {
+  body{
+    background-color: aqua;
+  }
+  main {
  
+    width: 921px;
+    height: 336px;
+    margin-left: 23.3rem;
+    margin-top: 22.4rem;
+}
+.timer{
+   display: flex;
+    width: 32.1rem;
+    height: 10.7rem;
+    margin-left:-39px;
+    font-size:  clamp(4rem, 4rem + 10vw, 7.7rem);
+   
+    margin-bottom: 3.1rem;
+        
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+   
+}
+#controls {
+
+    width: 31.2rem;
+    height: 4.8rem;
+    margin-left:-90px;
+    display: flex;
+    gap: 4rem;
+}
+svg {
+    transition: transform 0.3s ease;
+   
+  }
+  
+  svg:hover {
+    cursor: pointer;
+    transform: translateY(-10px); 
+ 
+  }
+  
+  svg.clicked {
+    transform: translateY(-100%);
+   
+  }
+   
+
+button{
+    background-color: transparent;
+   
+    border: none;
+    cursor: pointer;
+}
+.sons {
+
+
+    width: 30.8rem;
+    height: 33.6rem;
+   
+    top: 47.6rem;
+    left: 15rem;
+   
+    background-color: transparent;
+  
+}
+.sons, button{
+    gap: 3.2rem;
+}
+.nuvem{
+    padding-left: 2.7rem;
+    margin-bottom: 12px;
+}
+.cool {
+    padding-left: 2.0em;
+}
+
+.dark {
+   position: absolute;
+    top: 50px;
+    right: 40px;
+  
+}
+path{
+    fill:#323238;
+    
+}
+.two{
+    display: none;
+ }
+ .vlvento{
+    display: flex ;
+    position: absolute;
+    top: 125px;
+    left: 20px;
+    width: 100px;
+    
+ }
+ .vlnuvem{
+    display: flex ;
+    position: absolute;
+    top: 125px;
+    left: 185px;
+    width: 100px;
+    cursor: pointer;
+ }
+ .vlhouse {
+    display: flex ;
+    position: absolute;
+    top: 290px;
+    left: 20px;
+    width: 100px;
+    cursor: pointer;
+ }
+ .vlcool{
+    display: flex ;
+    position: absolute;
+    top: 290px;
+    left: 185px;
+    width: 100px;
+    cursor: pointer;
+ } 
+ }

@@ -134,14 +134,14 @@ path{
     cursor: pointer;
  } 
 
- @media screen  and (min-width: 400px) and (max-width: 500px) {
+ @media screen  and (min-width: 500px) and (max-width: 700px) {
   body{
     background-color: aqua;
   }
   main {
  
     width: 921px;
-    height: 336px;
+    height: 236px;
     margin-left: 23.3rem;
     margin-top: 22.4rem;
 }
@@ -149,8 +149,8 @@ path{
    display: flex;
     width: 32.1rem;
     height: 10.7rem;
-    margin-left:-39px;
-    font-size:  clamp(4rem, 4rem + 10vw, 7.7rem);
+    margin-left:3px;
+    font-size:  clamp(4.5rem, 5rem + 10vw, 6.7rem);
    
     margin-bottom: 3.1rem;
         
@@ -162,7 +162,7 @@ path{
 
     width: 31.2rem;
     height: 4.8rem;
-    margin-left:-90px;
+    margin-left:-60px;
     display: flex;
     gap: 4rem;
 }
@@ -196,7 +196,7 @@ button{
     height: 33.6rem;
    
     top: 47.6rem;
-    left: 15rem;
+    left:18rem;
    
     background-color: transparent;
   
@@ -214,7 +214,7 @@ button{
 
 .dark {
    position: absolute;
-    top: 50px;
+    top: 90px;
     right: 40px;
   
 }

@@ -62,6 +62,8 @@ function decreaseTime() {
 
 
 
+
+
 function alterarModo(modo) {
   if (modo === 'light') {
     // Alterar o fundo para escuro
@@ -83,6 +85,7 @@ function alterarModo(modo) {
 
 var audio;
 var volume = 0.5;
+var sliderVolume = document.getElementById('slider-volume'); 
 
 
     function adicionarAudioFlorest() {
@@ -94,6 +97,11 @@ var volume = 0.5;
         audio.volume = 0.5;
         audio.play();
         
+
+       
+        sliderVolume.addEventListener('input', function() {
+          audio.volume = parseFloat(sliderVolume.value); 
+        });
       }
     }
     function adicionarAudioChuva() {

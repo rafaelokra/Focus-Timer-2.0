@@ -16,7 +16,7 @@ main {
     width: 821px;
     height: 336px;
     margin-left: 23.3rem;
-    margin-top: 20.4rem;
+    margin-top: 22.4rem;
 }
 .timer{
    
@@ -99,4 +99,36 @@ path{
 }
 .two{
     display: none;
+ }
+ .vlvento{
+    display: flex ;
+    position: absolute;
+    top: 125px;
+    left: 20px;
+    width: 100px;
+    
+ }
+ .vlnuvem{
+    display: flex ;
+    position: absolute;
+    top: 125px;
+    left: 185px;
+    width: 100px;
+    cursor: pointer;
+ }
+ .vlhouse {
+    display: flex ;
+    position: absolute;
+    top: 290px;
+    left: 20px;
+    width: 100px;
+    cursor: pointer;
+ }
+ .vlcool{
+    display: flex ;
+    position: absolute;
+    top: 290px;
+    left: 185px;
+    width: 100px;
+    cursor: pointer;
  }

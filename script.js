@@ -60,34 +60,24 @@ function decreaseTime() {
   updateTimerDisplay();
 }
 
-var onFill = document.querySelector('.onfill-svg')
+
+
 function alterarModo(modo) {
   if (modo === 'light') {
-    // Alterar o ícone para a versão escura
-    document.getElementById('lightIcon')
-
     // Alterar o fundo para escuro
-   
     document.body.style.backgroundColor = '#000000';
-    document.body.style.color = "#ffffff"
- 
-  
- 
-  
- 
-  
+    document.body.style.color = '#ffffff';
+   
   } else if (modo === 'dark') {
     // Alterar o ícone para a versão clara
-    document.getElementById('darkIcon')
-   
+    document.getElementById('darkIcon').style.color = '#ffffff';
 
     // Alterar o fundo para claro
     document.body.style.backgroundColor = '#ffffff';
-    document.body.style.color = "#000000"
-   
-    
+    document.body.style.color = '#323238';
   }
 }
+
 
 
 
